@@ -3,7 +3,7 @@ import re
 from transformers import AutoTokenizer
 from typing import List, Tuple
 
-from .vi_symbols import symbols, num_tones, language_id_map
+from .vi_symbols import symbols
 from . import punctuation
 
 # Initialize tokenizer
